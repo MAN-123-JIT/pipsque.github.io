@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Crimson+Text:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Crimson+Text:wght@400;600&family=Oswald:wght@200;300;500;700&display=swap');
+body{
+  margin: 0;
+}
+.first_section{
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.first_section a{
+  float: left;
+  color: #66fcf1;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color 0.25s, color 0.25s;
+}
+.first_section a:hover {
+  background: #66fcf1;
+  color: black;
+  font-size: 17px;
+}
+
+
+/* content */
+
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 59px;
+}
+
+#home{
+  border-bottom: 1px solid black;
+}
+.logo{
+  width: 1360px;
+  height: 667px;
+  background-image: url(g20_pic/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 70px; 
+}
+
+.homepage p{
+  margin: 500px 0 0 550px;
+  color: rgb(0, 0, 0);
+  height: 70px;
+}
+
+
+/* about */
+.about_info{
+  border-bottom: 1px solid black;
+}
+.about_info{
+  margin: 20px 40px;
+}
+.top_section{
+  margin-bottom: 70px;
+}
+.bottom_section{
+  margin-bottom: 90px;
+}
+.top_section p,
+.bottom_section p{
+  font-size: 18px;
+  font-family: "Merriweather";
+  font-weight: 400;
+  text-align: center;
+}
+.about_info .about_header{
+  font-size: 30px;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #94727d,#6e0628);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* countries  */
+.countries_info{
+  border-bottom: 1px solid black;
+}
+.country_header{
+  font-size: 50px;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  width: 800px;
+  text-align: center;
+  margin: 5px 0 50px 168px;
+  background-image: linear-gradient(to right, #94727d,#6e0628);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.country_grid{
+  display: grid;
+  grid-template-columns: 290px 290px 290px 290px;
+  margin-bottom: 70px;
+}
+.country_info{
+  margin: 20px;
+}
+.grid .pic img{
+  width: 250px;
+  height: 168px;
+}
+.name p{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+/* summit */
+#summits{
+  border-bottom: 1px solid black;
+  margin-bottom: 100px;
+  margin: 0 40px;
+}
+.summits_name{
+  margin: 0 0 0 330px ;
+}
+.summits_name p{
+  font-size: 40px;
+  font-family: 'Crimson Text', serif;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #853d52,#72092c);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.summit_info{
+  margin-bottom: 100px;
+}
+.s_no{
+  width: 50px;
+}
+.place{
+  width: 580px;
+}
+.date{
+  width: 168px;
+}
+.align{
+  text-align: center;
+}
+.s_no,
+.place,
+.date{
+  padding: 30px 20px;
+  font-size: 20px;
+}
+.height{
+  height: 45px;
+}
+.summit_info table tr td{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+/* Agenda */
+
+/* nav bar */
+.agenda_nav{
+  display: grid;
+  grid-template-columns: 320px 328px 328px 328px;
+  list-style-type: none; 
+  margin-top: 100px;
+}
+.agenda_nav button:hover{
+  background-color: #e4aeb3;
+  color: rgb(2, 2, 2);
+}
+.agenda_nav button:active{
+  background-color: #bf9471;
+  color: black;
+}
+.agenda_nav button{
+  background-image: linear-gradient(to right, #eb4d7f,#5e0724);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #e2b5c3;
+  transition: background-color 0.25s, color 0.25s;
+  box-shadow: 0 0 40px #ada3a3;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.agenda_nav li{
+  text-align: center;
+}
+
+.financial_focus_info,
+.growth_and_sustainability_info,
+.interrelated_themes_info,
+.topics_discussed_info{
+  margin: 70px 100px;
+  text-align: center;
+}
+.financial_focus_info p,
+.growth_and_sustainability_info p,
+.interrelated_themes_info p,
+.topics_discussed_info p{
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+.topics_discussed_info span{
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+  font-weight: 600;
+}
+.topics_align{
+  margin: 60px 0 0 0;
+}
+
+
+/* social links */
+.links{
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  margin: 120px 50px 0 1150px;
+}
+.social_links{
+  height: 231px;
+  background-color: #101111;
+}
+.insta_link img,
+.facebook_link img,
+.youtube_link img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
